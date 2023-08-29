@@ -8,6 +8,8 @@ This project was tasked with developing and implementing a Neural Network model,
 This project was built in a Jupyter Notebook using Python and TensorFlow/Keras for modeling. Python was used for data cleaning and organization prior to modeling and SciKit Learn was used to prepare, scale and split the data for the model.
 
 *	Data Processing:
+* Compiling, Training and Evaluating the Model:
+  * We used a Tensor Flow Keras deep neural network for our modeling.
   *	Target:  We used the “IS_SUCCESSFUL” field from the dataset as our target. This variable was split off from our dataset and used to train and test our model.
   *	Features: We used Application Type, Affiliation, Classification, Use Case, Organization, Income Classification, Special Considerations and Ask Amount for features. We believe that any of these could play into the success or failure of a project, so we maintained them in the testing and training process.
   *	Omitted: We did not include the EIN, Name or Status in our modeling. EIN and Name would have hindered training since they are unique to each column could not be used to predict future decisions. Status was dropped in optimization attempts since it did not have a positive impact on accuracy score.
