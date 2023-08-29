@@ -1,9 +1,10 @@
-Alphabet Soup Neural Network Model Analysis
+## Alphabet Soup Neural Network Model Analysis
 
-Overview
+# Overview
+
 This project was tasked with developing and implementing a Neural Network model, which would aid Alphabet Soup in selecting funding applicants based on potential success. The model was based on a historical dataset comprised of over 34,000 entries containing metadata information from previous funding recipients. The goal was to achieve 75% accuracy in identifying successful applicants. Ultimately, we were not able to achieve accuracy over 73% after multiple modeling attempts.
 
-Results
+# Results
 This project was built in a Jupyter Notebook using Python and TensorFlow/Keras for modeling. Python was used for data cleaning and organization prior to modeling and SciKit Learn was used to prepare, scale and split the data for the model.
 
 •	Data Processing
@@ -45,7 +46,7 @@ o	Training accuracy below:
 
 
 
-Summary
+# Summary
 We were not able to reach the target of 75% accuracy with our models. Since our accuracy was just short of the target, the model my provide some value as is or there are several other options that could be tested.
 
 •	Continue to refine model: More work could be done to resize bins, omit columns and attempting varying levels of complexity. Since our initial models achieved close to the target accuracy, it may be possible to reach that with several more attempts. The risk of this is overfitting our model, creating something that is not reliable in the future.
